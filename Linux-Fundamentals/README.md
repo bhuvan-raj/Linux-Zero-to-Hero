@@ -1,5 +1,4 @@
-#LINUX FUNDAMENTALS
-
+# LINUX FUNDAMENTALS
 
 ## 🧠 What is a Kernel?
 
