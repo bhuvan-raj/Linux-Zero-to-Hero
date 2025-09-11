@@ -1,7 +1,3 @@
-Perfect, Bubu ✅
-Here’s your updated **README.md** with the **MIT License** mentioned:
-
----
 
 # 🐧 Linux Zero to Hero
 
