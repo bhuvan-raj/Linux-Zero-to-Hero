@@ -750,7 +750,6 @@ sudo gpasswd [options] groupname
 sudo gpasswd -a alice developers   # add alice to group
 sudo gpasswd -d alice developers   # remove alice from group
 sudo gpasswd -A bob developers     # set bob as group administrator
-sudo gpasswd -M "alice,bob" devs   # set full membership list (overwrites)
 sudo gpasswd developers            # set a password for the group
 ```
 
