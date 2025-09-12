@@ -1,6 +1,12 @@
 # LINUX FUNDAMENTALS
 
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/linux.jpeg" alt="Banner" />
+
+
 ## 🧠 What is a Kernel?
+
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/kernel.webp" alt="Banner" />
+
 
 The **kernel** is the **core part of an operating system (OS)**.
 It acts as a **bridge between hardware and software**, managing how applications use the computer’s resources.
