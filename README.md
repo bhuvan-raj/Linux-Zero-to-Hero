@@ -11,6 +11,16 @@ This repository is designed for beginners and aspiring DevOps/System Admin profe
 
 Each folder in this repository covers a major Linux topic:
 
+### 1. Linux Fundamentals
+* **Description:** Learn the core concepts of Linux, including its architecture, kernel, file system hierarchy etc. This section builds the foundational skills needed to work effectively in any Linux-based environment.
+* **Explore:** Navigate to [Linux Fundamentals](./Linux-Fundamentals/) for detailed information.
+
+
+### 2. User and Group Management in Linux
+* **Description:** Understand how to create, modify, and manage users and groups in Linux. This section covers user accounts, group types, permissions, ownership, and related administrative commands to control access and enhance system security.
+* **Explore:** Navigate to [User and Group Management](./User%20and%20Group%20Management/) for detailed information.
+
+
 
 
 > ⚡️ Each section contains study notes, command references, and practice tasks.
