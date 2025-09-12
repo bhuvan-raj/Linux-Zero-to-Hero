@@ -1,6 +1,6 @@
 # 🧑‍💻 Linux User Management – Core Commands
 
-<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/um.png" alt="Banner" />
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/um.png" alt="Banner" width="600" height="200" />
 
 
 Managing users is a key part of system administration.
