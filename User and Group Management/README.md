@@ -1,5 +1,8 @@
 # 🧑‍💻 Linux User Management – Core Commands
 
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/um.png" alt="Banner" />
+
+
 Managing users is a key part of system administration.
 These commands help you **view user info, create users, and manage their credentials**.
 
@@ -636,6 +639,9 @@ sudo userdel -r alice    # remove user and their home + mail spool
 * `userdel` = universal low-level tool (works on all Linux systems)
 
 # 🧠 Linux Group Management — In-Depth Study Note
+
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/gm.jpeg" alt="Banner" />
+
 
 ---
 
