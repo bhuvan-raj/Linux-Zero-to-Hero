@@ -1,7 +1,5 @@
 # LINUX FUNDAMENTALS
 
-<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/linux.jpeg" alt="Banner" />
-
 
 ## 🧠 What is a Kernel?
 
