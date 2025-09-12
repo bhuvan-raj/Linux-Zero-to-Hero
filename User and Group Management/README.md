@@ -640,7 +640,7 @@ sudo userdel -r alice    # remove user and their home + mail spool
 
 # 🧠 Linux Group Management — In-Depth Study Note
 
-<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/gm.jpeg" alt="Banner" />
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/gm.jpeg" alt="Banner"  width="800" height="400" />
 
 
 ---
