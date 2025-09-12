@@ -1,6 +1,8 @@
 
 # 🐧 Linux Zero to Hero
 
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/logo.png" alt="Banner" />
+
 **A complete learning path to master Linux from scratch to advanced level.**
 
 This repository is designed for beginners and aspiring DevOps/System Admin professionals who want to build a strong foundation in Linux. It provides structured study materials organized in topic-wise subfolders with clear explanations and hands-on exercises.
