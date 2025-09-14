@@ -99,7 +99,7 @@ lsblk      # list block devices
 Linux follows the **Filesystem Hierarchy Standard (FHS)** which organizes files in a **tree starting at `/` (root)**.
 
 
-<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/fs.png" alt="Banner" height="400" width="800" />
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/fs.webp" alt="Banner"  />
 
 ---
 
