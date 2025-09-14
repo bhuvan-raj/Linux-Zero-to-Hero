@@ -94,26 +94,12 @@ lsblk      # list block devices
 
 ---
 
-## 🧮 File Permissions and Ownership
-
-* Each file has:
-
-  * Owner (user), group, and permission bits
-* Permissions: `rwx` for **user, group, others**
-* Commands:
-
-  * `chmod`, `chown`, `chgrp`
-* Example:
-
-```bash
--rw-r--r--  1 bubu dev 1024 Sep 14  notes.txt
-```
-
----
-
 # 🌳 Linux Filesystem Hierarchy — Directory Structure
 
 Linux follows the **Filesystem Hierarchy Standard (FHS)** which organizes files in a **tree starting at `/` (root)**.
+
+
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/fs.png" alt="Banner" />
 
 ---
 
