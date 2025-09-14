@@ -99,7 +99,7 @@ lsblk      # list block devices
 Linux follows the **Filesystem Hierarchy Standard (FHS)** which organizes files in a **tree starting at `/` (root)**.
 
 
-<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/fs.png" alt="Banner" />
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/fs.png" alt="Banner" length="800" width="400" />
 
 ---
 
@@ -173,8 +173,3 @@ Linux follows the **Filesystem Hierarchy Standard (FHS)** which organizes files 
 * **Permissions, journaling, and quotas** are part of filesystem management.
 * **FHS** defines where files should logically live.
 
----
-
-If you want, Bubu, I can next create a **clear diagram showing how superblock → inode → data blocks link up** alongside the **directory hierarchy tree**, to use in your teaching material.
-
-Would you like me to make that diagram?
