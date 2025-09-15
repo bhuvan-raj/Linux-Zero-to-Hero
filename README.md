@@ -19,7 +19,7 @@ Each folder in this repository covers a major Linux topic:
 
 ### 2. File System and Hierrarchy
 * **Description:** This section focuses on the principles of how linux manages the file system and the important file system types and core directories inside linux
-* **Explore:** Navigate to [File System and Hierrarchy](./File%20System%20and%Hierrarchy/) for detailed information.
+* **Explore:** Navigate to [File System and Hierrarchy](./File%20System%20and%20Hierrarchy/) for detailed information.
 
 
 
