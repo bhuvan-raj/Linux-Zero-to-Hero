@@ -17,8 +17,13 @@ Each folder in this repository covers a major Linux topic:
 * **Description:** Learn the core concepts of Linux, including its architecture, kernel, file system hierarchy etc. This section builds the foundational skills needed to work effectively in any Linux-based environment.
 * **Explore:** Navigate to [Linux Fundamentals](./Linux-Fundamentals/) for detailed information.
 
+### 2. File System and Hierrarchy
+* **Description:** This section focuses on the principles of how linux manages the file system and the important file system types and core directories inside linux
+* **Explore:** Navigate to [File System and Hierrarchy](./File%20System%20and%Hierrarchy/) for detailed information.
 
-### 2. User and Group Management in Linux
+
+
+### 3. User and Group Management in Linux
 * **Description:** Understand how to create, modify, and manage users and groups in Linux. This section covers user accounts, group types, permissions, ownership, and related administrative commands to control access and enhance system security.
 * **Explore:** Navigate to [User and Group Management](./User%20and%20Group%20Management/) for detailed information.
 
