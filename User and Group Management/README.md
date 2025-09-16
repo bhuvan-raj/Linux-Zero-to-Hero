@@ -184,25 +184,47 @@ username : x : UID : GID : comment : home directory : login shell
 
 ---
 
-## 10. ⏳ `chage`
+## 10\. ⏳ `chage`
 
-**Purpose:** View or change **password aging policies** for a user
-(password expiry, last changed date, account expiry).
+**Purpose:** View or change **password aging policies** for a user (password expiry, last changed date, account expiry). This command is crucial for enforcing security policies.
 
 **Usage:**
 
 ```bash
-sudo chage -l john       # list password aging info
-sudo chage -M 90 john     # set password to expire every 90 days
-sudo chage -E 2025-12-31 john  # set account expiry date
+sudo chage -l [username]       # Lists all password aging info for a user.
+sudo chage -M [days] [username]     # Sets the maximum days between password changes.
+sudo chage -E [YYYY-MM-DD] [username] # Sets the account expiration date.
+sudo chage -W [days] [username]     # Sets the number of warning days before password expires.
+sudo chage -d 0 [username]       # Forces a password change at the next login.
 ```
 
-**Example Output:**
+**Key Options:**
+
+  * `-l` (or `--list`): Lists the current password aging information.
+  * `-d` (or `--lastday`): Sets the date of the last password change. Setting this to `0` forces a password change.
+  * `-M` (or `--maxdays`): Sets the maximum number of days a password is valid.
+  * `-m` (or `--mindays`): Sets the minimum number of days between password changes.
+  * `-W` (or `--warndays`): Sets the number of days a user receives a warning before their password expires.
+  * `-I` (or `--inactive`): Sets the number of days after password expiration that the account will be locked.
+  * `-E` (or `--expiredate`): Sets the account expiration date.
+
+**Example Scenario and Output:**
+
+Let's assume the current date is **September 16, 2025**.
+
+  * `sudo chage -M 90 john` is executed on September 10, 2025.
+  * `sudo chage -W 7 john` is also configured.
+
+<!-- end list -->
 
 ```
-Last password change                                    : Sep 10, 2025
-Password expires                                        : Dec 09, 2025
-Account expires                                         : never
+Last password change                         : Sep 10, 2025
+Password expires                             : Dec 09, 2025
+Password inactive                            : never
+Account expires                              : never
+Minimum number of days between password change : 0
+Maximum number of days between password change : 90
+Number of days of warning before password expires : 7
 ```
 
 ## ⏳ What Happens When a User’s Password Expires
