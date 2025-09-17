@@ -487,6 +487,30 @@ This shows all normal users from both local and network databases.
 | `cat /etc/passwd` | Shows all local user accounts          |
 | `chage`           | Manage password/account expiry         |
 
+
+### How to create users with specific UID
+```
+sudo useradd -u <UID> <username>
+```
+### How to create users with specific HOME directory
+```
+sudo useradd -d <path/to/home> <username>
+```
+
+ ### How to create users with specific Shell
+
+```
+sudo useradd -s <path/to/shell>
+```
+
+
+### To create user with specific UID,SHELL and HOME
+
+```
+sudo useradd -u <UID> -d <path/to/home> -s <path/to/shell> <username>
+
+```
+
 ---
 
 # 🧠 `usermod`
