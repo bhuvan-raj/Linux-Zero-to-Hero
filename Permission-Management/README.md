@@ -1,4 +1,7 @@
-### Understanding File and Directory Permissions
+# Permission Management in Linux
+
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/pm.jpeg" alt="Banner" width="800" height="400" />
+
 
 Permission management in Linux is a fundamental security mechanism that controls who can access and what they can do with files and directories. Every file and directory on a Linux system is associated with a set of permissions that are categorized into three distinct entities:
 
