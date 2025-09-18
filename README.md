@@ -27,6 +27,9 @@ Each folder in this repository covers a major Linux topic:
 * **Description:** Understand how to create, modify, and manage users and groups in Linux. This section covers user accounts, group types, permissions, ownership, and related administrative commands to control access and enhance system security.
 * **Explore:** Navigate to [User and Group Management](./User%20and%20Group%20Management/) for detailed information.
 
+### 4. Permission Management in Linux
+* **Description:** This section covers the core security model of Linux, focusing on file and directory permissions. It teaches you how to control access to system resources by managing read, write, and execute permissions for the owner, group, and other users. 
+* **Explore:** Navigate to [Permission Management](./Permission-Management/) for detailed information.
 
 
 
