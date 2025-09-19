@@ -1,5 +1,5 @@
 
-# 📚 In-depth Study Notes — File Management Commands in Linux
+# File Management Commands in Linux
 
 ---
 
