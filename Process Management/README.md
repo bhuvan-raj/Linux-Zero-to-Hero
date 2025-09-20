@@ -1,4 +1,6 @@
 # 📌 Process Management in Linux
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/pm.png" alt="Banner" />
+
 
 Processes are at the core of Linux. A **process** is simply a running instance of a program, with its own memory, CPU usage, and resources.
 
