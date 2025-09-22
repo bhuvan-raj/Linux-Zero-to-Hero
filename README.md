@@ -31,6 +31,24 @@ Each folder in this repository covers a major Linux topic:
 * **Description:** This section covers the core security model of Linux, focusing on file and directory permissions. It teaches you how to control access to system resources by managing read, write, and execute permissions for the owner, group, and other users. 
 * **Explore:** Navigate to [Permission Management](./Permission-Management/) for detailed information.
 
+### 5. File-and-DirectoryManagement
+* **Description:** This section covers the core security model of Linux, focusing on file and directory permissions. It teaches you how to control access to system resources by managing read, write, and execute permissions for the owner, group, and other users. 
+* **Explore:** Navigate to [File-and-DirectoryManagement](./File-and-DirectoryManagement/) for detailed information.
+
+### 6. Permission-Management
+* **Description:** This section covers the core security model of Linux, focusing on file and directory permissions. It teaches you how to control access to system resources by managing read, write, and execute permissions for the owner, group, and other users. 
+* **Explore:** Navigate to [Permission-Management](./Permission-Management/) for detailed information.
+
+
+### 7. Process Management
+* **Description:** This section covers the fundamentals of Process Management in Linux. It teaches you how to view, monitor, and control the lifecycle of processes, including starting, stopping, and managing their priority to optimize system performance and resource allocation. 
+* **Explore:** Navigate to [Process Management](./Process%20Management/) for detailed information.
+
+### 8. Memmory Management and CPU Management
+* **Description:** This section covers the core security model of Linux, focusing on memory and CPU management. It teaches you how to control access to system resources by managing read, write, and execute permissions for the owner, group, and other users. 
+* **Explore:** Navigate to [Memmory Management and CPU Management](./Memmory%20Management%20and%20CPU%20Management/) for detailed information.
+
+
 
 
 > ⚡️ Each section contains study notes, command references, and practice tasks.
