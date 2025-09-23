@@ -1,6 +1,10 @@
 ### -Soft Links vs. Hard Links
 
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/link.png" alt="Banner" />
+
+
 In Unix-like operating systems, a **link** is a pointer or a reference to a file or directory. Understanding the two primary types—hard links and soft links—is fundamental to efficient file management and system administration. The key difference lies in what they point to: a hard link points to the data itself, while a soft link points to the name of another file.
+
 
 #### 1\. The Core Concept: Inodes
 
