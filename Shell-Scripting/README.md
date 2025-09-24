@@ -57,7 +57,7 @@ This tells the system which shell to use for executing the script.
 ### 3.3 Variables
 
 ```bash
-name="Bubu"
+name="akash"
 echo "Hello $name"
 ```
 
