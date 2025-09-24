@@ -1,4 +1,6 @@
 # Shell & Shell Scripting
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/shell.webp" alt="Banner" />
+
 
 ## 1. What is a Shell?
 
