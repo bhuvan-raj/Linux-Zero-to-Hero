@@ -1,5 +1,7 @@
 # 🎯 **What is a CronJob?**
 
+<img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/haha.png" alt="Banner" />
+
 A **CronJob** (or simply "cron job") is a scheduled command or script executed by the **cron daemon** ($\text{crond}$), a background service that runs continuously. It is the time-based job scheduler in these operating systems.
 
 The name "cron" comes from the Greek word *chronos* ($\chi\rho\omicron\nu\omicron\varsigma$), meaning **time**.
