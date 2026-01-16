@@ -20,7 +20,7 @@ whoami
 **Example Output:**
 
 ```
-bubu
+user
 ```
 
 ✅ Useful in scripts to know which user is running them.
@@ -59,7 +59,7 @@ who
 **Example Output:**
 
 ```
-bubu     tty1         2025-09-11 09:12
+user1     tty1         2025-09-11 09:12
 admin    pts/0        2025-09-11 10:01 (192.168.1.5)
 ```
 
@@ -78,7 +78,7 @@ users
 **Example Output:**
 
 ```
-bubu admin root
+user admin root
 ```
 
 ---
