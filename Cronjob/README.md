@@ -77,7 +77,6 @@ The first five fields use special characters to define flexible schedules.
 | **-** (Hyphen) | Specifies a **range** of values. | $\text{0 9-17 * * *}$ | On the hour, for hours 9 through 17 (9:00 AM to 5:00 PM). |
 | **,** (Comma) | Specifies a **list** of values. | $\text{0 10 * * 1,3,5}$ | At 10:00 AM on Monday, Wednesday, and Friday. |
 | **/** (Slash) | Specifies **step** values (increments). | $\text{*/5 * * * *}$ | Every 5 minutes. |
-| **?** (Question Mark) | Stands for **"no specific value"** (used in Day of Month or Day of Week when one is restricted and the other is not needed). | $\text{0 12 ? * MON}$ | At 12:00 PM every Monday, regardless of the day of the month. |
 
 ### Predefined Strings (Macros)
 
