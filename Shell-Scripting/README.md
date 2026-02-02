@@ -69,80 +69,323 @@ read user_name
 echo "Welcome $user_name"
 ```
 
-### 3.5 Conditional Statements
+---
+
+## 🔹 Conditional Statements in Shell Scripting
+
+Conditional statements allow a shell script to **make decisions** based on conditions such as command success, variable values, file properties, or user input. They control the **flow of execution** of a script.
+
+In Linux shell scripting, conditions are usually evaluated using:
+
+* `if`, `else`, `elif`
+* `test` command or `[ ]`
+* `[[ ]]` (extended test)
+* `case` statement
+
+---
+
+## 1️⃣ `if` Statement
+
+### Basic Syntax
+
+```bash
+if condition
+then
+    commands
+fi
+```
+
+### Example
 
 ```bash
 if [ $age -ge 18 ]
 then
-  echo "You are an adult"
-else
-  echo "You are a minor"
+    echo "Eligible to vote"
 fi
 ```
 
-### 3.6 Loops
+🔹 The condition is evaluated first
+🔹 If **true**, commands inside `then` are executed
+🔹 `fi` marks the end of the `if` block
 
-**For Loop**
+---
+
+## 2️⃣ `if–else` Statement
+
+Used when you want to execute **one block if true and another if false**.
+
+### Syntax
 
 ```bash
-for i in 1 2 3 4 5
-do
-  echo "Number: $i"
-done
+if condition
+then
+    commands_if_true
+else
+    commands_if_false
+fi
 ```
 
-**While Loop**
+### Example
 
 ```bash
-count=1
-while [ $count -le 5 ]
-do
-  echo "Count = $count"
-  count=$((count+1))
-done
-```
-
-### 3.7 Functions
-
-```bash
-greet() {
-  echo "Hello $1!"
-}
-greet "Bubu"
-```
-
-### 3.8 Exit Status
-
-* Every command returns an **exit status code** (`0 = success, non-zero = error`).
-
-```bash
-ls /nonexistent
-echo $?   # Prints exit status of last command
+if [ $marks -ge 50 ]
+then
+    echo "Pass"
+else
+    echo "Fail"
+fi
 ```
 
 ---
 
-## 4. Fundamentals of Shell Scripting
+## 3️⃣ `if–elif–else` Statement
 
-✔ **Always start with shebang** (`#!/bin/bash`)
-✔ **Make script executable**:
+Used for **multiple conditions**.
+
+### Syntax
 
 ```bash
-chmod +x script.sh
-./script.sh
+if condition1
+then
+    commands
+elif condition2
+then
+    commands
+else
+    commands
+fi
 ```
 
-✔ **Indent code properly** for readability
-✔ **Test exit codes** to handle errors properly
-✔ **Use variables** instead of hardcoding values
-✔ **Use quotes** around variables to avoid word splitting
-✔ **Debug scripts** with `bash -x script.sh`
+### Example
+
+```bash
+if [ $score -ge 90 ]
+then
+    echo "Grade A"
+elif [ $score -ge 70 ]
+then
+    echo "Grade B"
+else
+    echo "Grade C"
+fi
+```
 
 ---
 
-✅ **In summary**:
+## 4️⃣ Condition Testing Methods
 
-* **Shell** → interface between user and kernel.
-* **Shell Script** → file with commands to automate tasks.
-* **Syntax** → shebang, variables, conditionals, loops, functions, exit codes.
-* **Fundamentals** → start with `#!/bin/bash`, make executable, handle errors, debug.
+### 🔸 `test` Command
+
+```bash
+if test $a -eq $b
+then
+    echo "Equal"
+fi
+```
+
+### 🔸 Single Brackets `[ ]`
+
+Most commonly used.
+
+```bash
+if [ $a -eq $b ]
+then
+    echo "Equal"
+fi
+```
+
+⚠️ Spaces are **mandatory**:
+
+```bash
+[ $a -eq $b ]   # correct
+[$a -eq $b]    # wrong
+```
+
+---
+
+### 🔸 Double Brackets `[[ ]]` (Recommended)
+
+Supports advanced features like regex and logical operators.
+
+```bash
+if [[ $name == "Bubu" ]]
+then
+    echo "Welcome"
+fi
+```
+
+✅ Safer
+✅ No word splitting issues
+✅ Supports pattern matching
+
+---
+
+## 5️⃣ Numeric Comparison Operators
+
+| Operator | Meaning               |
+| -------- | --------------------- |
+| `-eq`    | equal                 |
+| `-ne`    | not equal             |
+| `-gt`    | greater than          |
+| `-lt`    | less than             |
+| `-ge`    | greater than or equal |
+| `-le`    | less than or equal    |
+
+### Example
+
+```bash
+if [ $a -gt $b ]
+then
+    echo "$a is greater"
+fi
+```
+
+---
+
+## 6️⃣ String Comparison Operators
+
+| Operator    | Meaning             |
+| ----------- | ------------------- |
+| `=` or `==` | equal               |
+| `!=`        | not equal           |
+| `-z`        | string is empty     |
+| `-n`        | string is not empty |
+
+### Example
+
+```bash
+if [ -z "$username" ]
+then
+    echo "Username is empty"
+fi
+```
+
+---
+
+## 7️⃣ File Test Conditions
+
+| Test      | Meaning                    |
+| --------- | -------------------------- |
+| `-f file` | file exists and is regular |
+| `-d file` | directory exists           |
+| `-e file` | file exists                |
+| `-r file` | readable                   |
+| `-w file` | writable                   |
+| `-x file` | executable                 |
+
+### Example
+
+```bash
+if [ -f "/etc/passwd" ]
+then
+    echo "File exists"
+fi
+```
+
+---
+
+## 8️⃣ Logical Operators
+
+### AND (`&&`)
+
+```bash
+if [ $age -ge 18 ] && [ $age -le 60 ]
+then
+    echo "Eligible"
+fi
+```
+
+### OR (`||`)
+
+```bash
+if [ $role == "admin" ] || [ $role == "root" ]
+then
+    echo "Access granted"
+fi
+```
+
+### NOT (`!`)
+
+```bash
+if [ ! -f "data.txt" ]
+then
+    echo "File not found"
+fi
+```
+
+---
+
+## 9️⃣ Using Commands as Conditions
+
+In shell scripting, **command exit status** matters:
+
+* `0` → success (true)
+* Non-zero → failure (false)
+
+### Example
+
+```bash
+if ping -c 1 google.com > /dev/null
+then
+    echo "Internet is up"
+else
+    echo "Internet is down"
+fi
+```
+
+---
+
+## 🔟 `case` Statement (Alternative to if-elif)
+
+Best for **menu-driven scripts**.
+
+### Syntax
+
+```bash
+case variable in
+    pattern1)
+        commands ;;
+    pattern2)
+        commands ;;
+    *)
+        default_commands ;;
+esac
+```
+
+### Example
+
+```bash
+case $choice in
+    start)
+        echo "Starting service" ;;
+    stop)
+        echo "Stopping service" ;;
+    restart)
+        echo "Restarting service" ;;
+    *)
+        echo "Invalid option" ;;
+esac
+```
+
+---
+
+## 🔹 Best Practices
+
+✔ Always quote variables: `"$var"`
+✔ Prefer `[[ ]]` over `[ ]`
+✔ Indent code for readability
+✔ Use comments to explain logic
+
+---
+
+## 🔹 Real-World DevOps Example
+
+```bash
+if systemctl is-active nginx > /dev/null
+then
+    echo "Nginx is running"
+else
+    echo "Nginx is not running"
+    systemctl start nginx
+fi
+```
