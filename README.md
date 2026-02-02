@@ -43,11 +43,26 @@ Each folder in this repository covers a major Linux topic:
 ### 7. Memmory Management and CPU Management
 * **Description:** This section covers the core security model of Linux, focusing on memory and CPU management. It teaches you how to control access to system resources by managing read, write, and execute permissions for the owner, group, and other users. 
 * **Explore:** Navigate to [Memmory Management and CPU Management](./Memmory%20Management%20and%20CPU%20Management/) for detailed information.
+Here’s a revised description for that section that aligns with shell scripting rather than Linux security:
 
 
+### 8. Shell-Scripting
+
+* **Description:** This section introduces the fundamentals of shell scripting in Linux. It covers writing and executing scripts, using variables, loops, and conditional statements, automating tasks, and interacting with the filesystem and system commands efficiently.
+* **Explore:** Navigate to [Shell-Scripting](./Shell-Scripting/) for detailed information.
 
 
-> ⚡️ Each section contains study notes, command references, and practice tasks.
+### 9. Cronjob
+
+* **Description:** This section covers scheduling and automating recurring tasks in Linux using cron. It explains how to create and manage cron jobs, understand cron syntax, set execution intervals, and use scripts to automate system maintenance and repetitive tasks efficiently.
+* **Explore:** Navigate to [Cronjob](./Cronjob/) for detailed information.
+
+### 10. Hardlink-and-Softlink
+
+* **Description:** This section explains file linking in Linux, focusing on hard links and soft (symbolic) links. It covers how to create, manage, and differentiate links, understand inode behavior, and use links to organize files efficiently without duplicating data.
+* **Explore:** Navigate to [Hardlink-and-Softlink](./Hardlink-and-Softlink/) for detailed information.
+
+
 
 ---
 
