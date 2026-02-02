@@ -47,7 +47,7 @@ Each folder in this repository covers a major Linux topic:
 ### 8. Network Management
 
 * **Description:** This section covers the fundamentals of network management in Linux. It explains how to view, configure, and troubleshoot network settings using command-line tools, manage IP addresses and routes, test connectivity, and diagnose common network issues effectively.
-* **Explore:** Navigate to [Network Management in Linux](./Network Management/) for detailed information.
+* **Explore:** Navigate to [Network Management in Linux](./Network%20Management/) for detailed information.
 
 
 ### 9. Shell-Scripting
