@@ -53,7 +53,7 @@ Each folder in this repository covers a major Linux topic:
 ### 9. Shell-Scripting
 
 * **Description:** This section introduces the fundamentals of shell scripting in Linux. It covers writing and executing scripts, using variables, loops, and conditional statements, automating tasks, and interacting with the filesystem and system commands efficiently.
-* **Explore:** Navigate to [Shell-Scripting](./Shell-Scripting/) for detailed information.
+* **Explore:** Navigate to [Shell-Scripting](https://github.com/bhuvan-raj/ShellScripting-from-Scratch) for detailed information.
 
 
 ### 10. Cronjob
