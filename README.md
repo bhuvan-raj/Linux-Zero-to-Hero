@@ -74,7 +74,7 @@ Each folder in this repository covers a major Linux topic:
 
 * Go through the folders in order.
 * Read the notes and run the commands on a Linux machine/VM.
-* Try the practice exercises to reinforce your learning.
+* Try the practice exercises to reinforce your learning
 
 ---
 
