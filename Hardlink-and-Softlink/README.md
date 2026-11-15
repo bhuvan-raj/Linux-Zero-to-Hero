@@ -1,4 +1,4 @@
-### -Soft Links vs. Hard Links
+# Soft Links vs. Hard Links
 
 <img src="https://github.com/bhuvan-raj/Linux-Zero-to-Hero/blob/main/assets/link.png" alt="Banner" />
 
